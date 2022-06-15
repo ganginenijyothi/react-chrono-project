@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.project-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .project-title-container {
+    flex-direction: row;
+    align-items: space-around;
+  }
+}
+.project-name {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.duration {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.description {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.visit-link {
+  color: #06b9ff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
